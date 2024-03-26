@@ -1,24 +1,10 @@
 <template>
   <q-page class="flex flex-center">
-    <div style="margin-left: 6%">
-      <div class="q-pa-md row items-start q-gutter-md">
-        <!-- <div
-          id="parent"
-          class="fit row wrap justify-start items-start content-start"
-          style="overflow: hidden"
-        >
-          <div class="bg-grey-6" style="overflow: auto">
-            <q-card class="no-border-radius">
-              <q-card-section> Child #1 </q-card-section>
-            </q-card>
-          </div>
-          <div class="offset-1 bg-grey-6" style="overflow: auto">
-            <q-card class="no-border-radius">
-              <q-card-section> Child #2 </q-card-section>
-            </q-card>
-          </div>
-        </div> -->
-
+    <div class="seen" style="margin: auto">
+      <div
+        class="q-pa-md row items-start q-gutter-md"
+        style="display: flex; justify-content: center"
+      >
         <q-card class="my-card">
           <img src="images/mountains.jpg" style="width: 280px; height: 200px" />
 
@@ -36,6 +22,38 @@
           </q-item>
         </q-card>
 
+        <q-card class="my-card">
+          <img src="images/mountains.jpg" style="width: 280px; height: 200px" />
+
+          <q-item>
+            <q-item-section avatar>
+              <q-avatar>
+                <img src="https://cdn.quasar.dev/img/avatar2.jpg" />
+              </q-avatar>
+            </q-item-section>
+
+            <q-card-section class="card-text-section">
+              <div class="text-h6">The Boss</div>
+              <div class="text-subtitle2">by John Doe</div>
+            </q-card-section>
+          </q-item>
+        </q-card>
+        <q-card class="my-card">
+          <img src="images/mountains.jpg" style="width: 280px; height: 200px" />
+
+          <q-item>
+            <q-item-section avatar>
+              <q-avatar>
+                <img src="https://cdn.quasar.dev/img/avatar2.jpg" />
+              </q-avatar>
+            </q-item-section>
+
+            <q-card-section class="card-text-section">
+              <div class="text-h6">The Boss</div>
+              <div class="text-subtitle2">by John Doe</div>
+            </q-card-section>
+          </q-item>
+        </q-card>
         <q-card class="my-card">
           <img src="images/mountains.jpg" style="width: 280px; height: 200px" />
 
