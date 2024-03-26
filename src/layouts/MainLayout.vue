@@ -91,13 +91,14 @@
             <q-tooltip>Notifications</q-tooltip>
           </q-btn> -->
             <q-btn round flat>
-              <q-avatar size="26px">
+              <q-avatar size="26px" style="margin-left: 10px">
                 <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
               </q-avatar>
               <q-tooltip>Account</q-tooltip>
+              <div style="padding: 10px" v-if="$q.screen.gt.sm">
+                The Town boyz
+              </div>
             </q-btn>
-
-            The Town boyz
           </div>
         </div>
       </q-toolbar>
